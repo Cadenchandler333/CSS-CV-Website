@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  background-color: #E2E8CE;
+}
+
+/****************   Nav Section **********************/
+nav {
+  background-color: orange;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex; 
+  justify-content: space-between;
+}
+
+/***********************  Footer Section   **************************/
+footer {
+	background-color: #262626; 
+  color: #03A89E;
+  display: flex;
+  justify-content: center;
+}
+
+/*********** Splash Page ************************/
+header {
+  display: flex; 
+  align-items: flex-end;
+  background-color: #ACBFA4;
+}
+
+header h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 65px;
+  color: #FF7F11;
+  order: 1;
+}
+
+header img {
+  margin: 6px; 
+  border: 4px solid orange; 
+  border-radius: 25%; 
+}
+
+.address {
+ border: 2px dashed #FF7F11;
+ background-color: #E2E8CE;
+}
+
+.tagline {
+  border: 2px dashed red; 
+  background-color: #E2E8CE; 
+}
+
+/************* Sections ********************/
+hr {
+
+}
+
+section h3 {
+  color: #FF7F11;
+  font-family: "Google Sans", sans-serif; 
+  
+}
+
+section dl {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+section ul {
+  font-family: "Playwrite NZ Basic", cursive;
+  color: orange; 
+}
+
+section a {
+  color: #03A89E; 
+  text-decoration: none; 
+}
+
+section a:hover {
+  text-decoration: underline; 
+  color: red; 
+}
+
+/**************   Projects   *****************/
+.three-col {
+	display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr; 
+}
+
+.card img {
+  width: 250px;
+}
+
+.card {
+  padding: 20px;
+  outline: 3px solid orange;
+  background-color: #ACBFA4;
+  box-shadow: 5px 5px #888888; 
+  -webkit-text-stroke: 1px #000000; 
+}
+
+/**************   Responsiveness   *****************/
+@media (max-width: 680px) {
+    nav {
+      display: flex;
+      flex-direction: column; 
+    }
+
+    .three-col {
+      display: grid;
+      grid-template-columns: 1fr; 
+    }
+}
+
+/**************   Contact Page   *****************/
+.one-col {
+  display: flex; 
+  flex-direction: column; 
+  background-color: #ACBFA4;
+}
+
+input {
+  background-color: beige; 
+
+}
+
+textarea {
+  background-color: beige; 
+}
