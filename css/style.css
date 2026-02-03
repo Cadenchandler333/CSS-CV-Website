@@ -40,11 +40,13 @@ header img {
 }
 
 .address {
+ margin: 2px;
  border: 2px dashed #FF7F11;
  background-color: #E2E8CE;
 }
 
 .tagline {
+  margin: 2px;
   border: 2px dashed red; 
   background-color: #E2E8CE; 
 }
@@ -54,13 +56,18 @@ hr {
 
 }
 
+section h2 {
+  margin: 2px; 
+}
+
 section h3 {
   color: #FF7F11;
   font-family: "Google Sans", sans-serif; 
-  
+  margin: 2px;
 }
 
 section dl {
+  margin: 8px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
